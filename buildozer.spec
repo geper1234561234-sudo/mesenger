@@ -21,7 +21,7 @@ version = 1.0
 # Требования (БИБЛИОТЕКИ)
 # ВАЖНО: KivyMD можно указать как "kivymd", Buildozer установит последнюю версию.
 # Если возникнут проблемы — используй конкретную версию: kivymd==1.1.1
-requirements = python3,kivy,kivymd
+requirements = python3,kivy==2.3.0,kivymd==1.1.1
 
 # Разрешения (нам не нужны внешние — всё локально)
 android.permissions = 
@@ -40,7 +40,7 @@ android.api = 33
 android.minapi = 21
 
 # NDK версия
-android.ndk = 25b
+android.ndk = 28c
 
 # NDK API
 android.ndk_api = 21
