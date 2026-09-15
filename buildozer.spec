@@ -49,7 +49,7 @@ android.ndk_api = 21
 p4a.python_version = 3.11
 
 # Ветка python-for-android (develop стабильнее для новых API)
-p4a.branch = develop
+p4a.branch = master
 
 # Разрешить бэкап
 android.allow_backup = True
